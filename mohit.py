@@ -28,15 +28,11 @@ def main():
         numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
         extracted_list = numbers[:5]
-
-        # 3. Reverse these extracted elements
-        # Slicing syntax: list[start:stop:step]
-        # A step of -1 reverses the list
         reversed_list = extracted_list[::-1]
 
-        # 4. Print both lists
         print(f"Original List:  {numbers}")
         print(f"Extracted List: {extracted_list}")
         print(f"Reversed List:  {reversed_list}")
 if __name__ == "__main__":
+
         main()
